@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "72f62323-bbb0-45e6-8398-28b4ac6fccf7")
+	(paper "USLetter")
+	(title_block
+		(title "ESP32 IOT board from Tech Exploration Tutorial")
+		(date "2025-02-23")
+		(rev "Rev 1.0")
+		(comment 3 "     2 - Capacitors in µF")
+		(comment 4 "Note 1 - Resitors in ohms")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
