@@ -3949,6 +3949,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 46.99) (xy 217.17 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d4886b-16af-4333-8b3e-0d7cb82dd17f")
+	)
+	(wire
+		(pts
 			(xy 86.36 57.15) (xy 91.44 57.15)
 		)
 		(stroke
@@ -4016,6 +4026,16 @@
 			(type default)
 		)
 		(uuid "26d6acee-c936-4f82-b35f-a1c55578f154")
+	)
+	(wire
+		(pts
+			(xy 209.55 46.99) (xy 217.17 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ee727e-86d3-4d6b-bb64-5844ec24ec3f")
 	)
 	(wire
 		(pts
@@ -4139,6 +4159,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 173.99) (xy 134.62 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e56a95b-316c-4fe5-8a1e-3355dcd72adb")
+	)
+	(wire
+		(pts
 			(xy 153.67 72.39) (xy 153.67 74.93)
 		)
 		(stroke
@@ -4156,6 +4186,16 @@
 			(type default)
 		)
 		(uuid "530f43ed-8dd3-4582-b06e-c33b4e4591a6")
+	)
+	(wire
+		(pts
+			(xy 132.08 180.34) (xy 134.62 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53888a61-c98a-4fae-a25d-a6be924c142d")
 	)
 	(wire
 		(pts
@@ -4186,26 +4226,6 @@
 			(type default)
 		)
 		(uuid "55fee9be-a653-403f-bd6f-6dcf24132226")
-	)
-	(wire
-		(pts
-			(xy 222.25 74.93) (xy 209.55 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "592e2486-e98e-4db5-927b-d0332e1308d3")
-	)
-	(wire
-		(pts
-			(xy 233.68 72.39) (xy 209.55 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bf50c40-186b-4c10-9309-c6d52ed79249")
 	)
 	(wire
 		(pts
@@ -4426,6 +4446,16 @@
 			(type default)
 		)
 		(uuid "93871a43-0490-4847-9416-8790b6b05209")
+	)
+	(wire
+		(pts
+			(xy 209.55 72.39) (xy 233.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9403f94a-edb5-41fc-887a-5a2753aff368")
 	)
 	(wire
 		(pts
@@ -4839,6 +4869,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 74.93) (xy 222.25 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5062f41-920e-4fa7-a6bc-bb62414dd183")
+	)
+	(wire
+		(pts
 			(xy 106.68 64.77) (xy 106.68 68.58)
 		)
 		(stroke
@@ -4927,6 +4967,16 @@
 		)
 		(uuid "53c4eee7-b02a-4711-aded-1377deee3e32")
 	)
+	(label "USB_DP"
+		(at 134.62 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "611a2c0c-7b3e-4e94-9843-18c62942c519")
+	)
 	(label "VBUS"
 		(at 44.45 77.47 180)
 		(effects
@@ -4937,6 +4987,16 @@
 		)
 		(uuid "74b4b5e7-e939-412b-beb4-9599d1411f1a")
 	)
+	(label "Chargimng"
+		(at 241.3 67.31 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7fd9e4f8-7493-44ee-b941-06164be5daea")
+	)
 	(label "+5V_USB"
 		(at 170.18 46.99 180)
 		(effects
@@ -4946,16 +5006,6 @@
 			(justify right bottom)
 		)
 		(uuid "891a01b4-e8ab-47da-8468-431ccaa336bf")
-	)
-	(label "+5V"
-		(at 209.55 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ba329d7-d20f-4c56-a7ca-f4a8e4044838")
 	)
 	(label "+5V_USB"
 		(at 124.46 64.77 0)
@@ -4987,6 +5037,16 @@
 		)
 		(uuid "ad0a7183-adf3-4a1e-b0e1-207b22010ee6")
 	)
+	(label "Charging Power Good"
+		(at 215.9 74.93 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd1ef187-81a3-4431-a200-0023d938a5ce")
+	)
 	(label "USB_DN"
 		(at 86.36 72.39 0)
 		(effects
@@ -5016,6 +5076,26 @@
 			(justify right bottom)
 		)
 		(uuid "e82c9237-bcd6-4015-905a-90e0dabe9bae")
+	)
+	(label "USB_DN"
+		(at 134.62 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcb999f0-0ae8-4cc9-a731-ae02e9f56878")
+	)
+	(label "Charged"
+		(at 229.87 72.39 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd05099d-7d24-491b-9de7-d750d3bb2e8e")
 	)
 	(label "VBAT"
 		(at 213.36 54.61 0)
@@ -6029,7 +6109,7 @@
 	)
 	(symbol
 		(lib_id "LTST-C170TBKT:LTST-C170TBKT")
-		(at 245.11 90.17 270)
+		(at 222.25 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6037,7 +6117,7 @@
 		(dnp no)
 		(uuid "4d21c0ba-9af8-4a9a-9a17-aafbda51ab41")
 		(property "Reference" "LED3"
-			(at 241.3 94.996 0)
+			(at 218.44 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6126,7 @@
 			)
 		)
 		(property "Value" "LTST-C170TBKT"
-			(at 241.554 101.092 0)
+			(at 218.694 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6135,7 @@
 			)
 		)
 		(property "Footprint" "LEDC2012X120N"
-			(at 151.46 102.87 0)
+			(at 128.6 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6065,7 +6145,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LTST-C170TBKT.pdf"
-			(at 51.46 102.87 0)
+			(at 28.6 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6075,7 +6155,7 @@
 			)
 		)
 		(property "Description" "LED,SMD,0805,Blue,28mcd,130deg"
-			(at 245.11 90.17 0)
+			(at 222.25 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +6164,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at -148.54 102.87 0)
+			(at -171.4 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +6174,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lite-On"
-			(at -248.54 102.87 0)
+			(at -271.4 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6104,7 +6184,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LTST-C170TBKT"
-			(at -348.54 102.87 0)
+			(at -371.4 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6114,7 +6194,7 @@
 			)
 		)
 		(property "Mouser Part Number" "859-LTST-C170TBKT"
-			(at -448.54 102.87 0)
+			(at -471.4 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6124,7 +6204,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170TBKT?qs=0uL0gcxEMop2ooGmIUzw3A%3D%3D"
-			(at -548.54 102.87 0)
+			(at -571.4 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +6214,7 @@
 			)
 		)
 		(property "Arrow Part Number" "LTST-C170TBKT"
-			(at -648.54 102.87 0)
+			(at -671.4 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +6224,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170tbkt/lite-on-technology?utm_currency=USD&region=nac"
-			(at -748.54 102.87 0)
+			(at -771.4 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +6384,7 @@
 	)
 	(symbol
 		(lib_id "LTST-C170KRKT:LTST-C170KRKT")
-		(at 222.25 90.17 270)
+		(at 245.11 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6312,7 +6392,7 @@
 		(dnp no)
 		(uuid "58e554dc-4981-49f5-a8f3-7c3997440881")
 		(property "Reference" "LED1"
-			(at 217.932 94.742 0)
+			(at 240.792 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,7 +6401,7 @@
 			)
 		)
 		(property "Value" "LTST-C170KRKT"
-			(at 218.186 101.092 0)
+			(at 241.046 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6330,7 +6410,7 @@
 			)
 		)
 		(property "Footprint" "LEDC2012X120N"
-			(at 128.6 102.87 0)
+			(at 151.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6340,7 +6420,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf"
-			(at 28.6 102.87 0)
+			(at 51.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6350,7 +6430,7 @@
 			)
 		)
 		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
-			(at 222.25 90.17 0)
+			(at 245.11 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6439,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at -171.4 102.87 0)
+			(at -148.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6449,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lite-On"
-			(at -271.4 102.87 0)
+			(at -248.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6459,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LTST-C170KRKT"
-			(at -371.4 102.87 0)
+			(at -348.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6389,7 +6469,7 @@
 			)
 		)
 		(property "Mouser Part Number" "859-LTST-C170KRKT"
-			(at -471.4 102.87 0)
+			(at -448.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,7 +6479,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"
-			(at -571.4 102.87 0)
+			(at -548.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6409,7 +6489,7 @@
 			)
 		)
 		(property "Arrow Part Number" "LTST-C170KRKT"
-			(at -671.4 102.87 0)
+			(at -648.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6419,7 +6499,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170krkt/lite-on-technology?utm_currency=USD&region=nac"
-			(at -771.4 102.87 0)
+			(at -748.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,6 +7485,72 @@
 			(project "ESP32_IOT"
 				(path "/72f62323-bbb0-45e6-8398-28b4ac6fccf7"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 217.17 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cbc5f9f-e17b-4b6c-982e-4f7b159f8227")
+		(property "Reference" "#PWR023"
+			(at 217.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 217.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 217.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35c095f4-7cf5-45ad-b659-1f3c79692501")
+		)
+		(instances
+			(project "ESP32_IOT"
+				(path "/72f62323-bbb0-45e6-8398-28b4ac6fccf7"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9224,6 +9370,68 @@
 				(path "/72f62323-bbb0-45e6-8398-28b4ac6fccf7"
 					(reference "#PWR015")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 166.37)
+		(size 31.75 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 196 255 152 1.0000)
+		)
+		(uuid "93a8ed12-4908-4edf-816f-4669ab4a9150")
+		(property "Sheetname" "ESP32-C3-02"
+			(at 100.33 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32-C3-02.kicad_sch"
+			(at 100.33 197.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DN" input
+			(at 132.08 173.99 0)
+			(uuid "56f5cca9-1980-4839-8a68-3783059a1a6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" input
+			(at 132.08 180.34 0)
+			(uuid "4fbae77e-6698-4ff6-8a68-684d54392b57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ESP32_IOT"
+				(path "/72f62323-bbb0-45e6-8398-28b4ac6fccf7"
+					(page "2")
 				)
 			)
 		)
