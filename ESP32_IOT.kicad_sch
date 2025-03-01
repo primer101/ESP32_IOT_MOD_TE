@@ -9428,6 +9428,16 @@
 				(justify right)
 			)
 		)
+		(pin "VBUS" input
+			(at 132.08 187.96 0)
+			(uuid "52f2dc05-33ac-4030-97f2-a5f9bfe0581d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "ESP32_IOT"
 				(path "/72f62323-bbb0-45e6-8398-28b4ac6fccf7"
